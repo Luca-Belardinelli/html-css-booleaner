@@ -76,7 +76,7 @@ header{
         background-image:url('../../img/monitor.jpg');
         background-repeat: no-repeat;
         color: #fff;
-        margin: 0px;
+        margin: 0;
         font-size: 20px;
         width: 400px;
         height: 200px;
@@ -88,7 +88,7 @@ header{
         background-image:url('../../img/graph.jpg');
         background-repeat: no-repeat;
         color: #fff;
-        margin: 0px;
+        margin: 0;
         font-size: 20px;
         width: 400px;
         height: 200px;
