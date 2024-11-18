@@ -3,44 +3,65 @@ header{
     background-image: url('../../img/pattern.png');
     height: 150px;
     background-color: rgb(17, 112, 214);
+    margin-top: 0px;
     }
 
     #logo{
-        width: 100px;
+        width: 180px;
+        padding-top: 90px;
+        padding-left: 10px;
         
     }
 
-    table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 20px 0;
-    }
-    
-    table th, table td {
-        border: 1px solid #ccc;
-        padding: 10px;
-        text-align: left;
-    }
-    
-    table th {
-        background-color: #add8e6;
-    }
-    
-    table td {
-        background-color: #f9f9f9;
+    tag{
+        color:aqua;
     }
 
-    ul {
-        margin: 20px 0;
+    h3{
+        color:grey;
+       
+    }
+
+    h1{
+        font-size: 45px;
+       
+    }
+
+    #photodescription{
+        font-size: 12px;
+
+    }
+
+    p{
+        font-size: 19px;
+    }
+
+    table{
+        font-size:19px
+    }
+
+    Ul{
+        font-size: 19px;
+    }
+
+
+    body{
+        text-align: left;
+    }
+
+    th{
+        color: white;
+        background-color: rgb(19, 169, 245);
+    }
+
+    td{
+        width: 600px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #fff;
     }
     
-    ul li {
-        margin-bottom: 10px;
-    }
-    
-    body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        margin: 0;
-        padding: 0;
+    tr:nth-child(odd) {
+        background-color: #b8f0f1;
     }
